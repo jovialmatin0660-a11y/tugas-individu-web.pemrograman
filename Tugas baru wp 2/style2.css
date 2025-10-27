@@ -1,0 +1,80 @@
+body {
+    font-family: 'Montserrat', sans-serif; /* Font yang lebih modern */
+    background-color: #f5f7fa; /* Warna background yang lebih lembut */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('fotoku 2.jpeg'); /* Ganti dengan URL foto gunung */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Background container dengan transparansi */
+    padding: 60px; /* Padding lebih besar */
+    border-radius: 18px; /* Border radius lebih besar */
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.2); /* Box shadow lebih menonjol */
+    width: 900px; /* Lebar container lebih besar */
+    text-align: center;
+    transition: transform 0.3s ease-in-out; /* Efek transisi saat hover */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Efek hover mengangkat container */
+}
+
+h1 {
+    color: #34495e; /* Warna judul yang lebih gelap */
+    margin-bottom: 40px; /* Margin bawah lebih besar */
+    font-size: 3.2rem; /* Ukuran font lebih besar */
+    letter-spacing: 1.5px; /* Jarak antar huruf */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan pada teks */
+}
+
+.story-section {
+    text-align: justify;
+    margin-bottom: 50px; /* Margin bawah lebih besar */
+    font-size: 1.3rem; /* Ukuran font lebih besar */
+    line-height: 1.9; /* Tinggi baris lebih besar */
+    color: #4a6572; /* Warna teks lebih lembut */
+    text-indent: 50px; /* Indentasi paragraf */
+}
+
+.image-section {
+    margin-bottom: 50px; /* Margin bawah lebih besar */
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; /* Border radius lebih besar */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); /* Box shadow lebih menonjol */
+    transition: transform 0.3s ease-in-out; /* Efek transisi saat hover */
+}
+
+.image-section img:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+.back-button a {
+    display: inline-block;
+    padding: 18px 36px; /* Padding lebih besar */
+    color: #fff;
+    background-color: #2e86de; /* Warna background tombol yang lebih cerah */
+    text-decoration: none;
+    font-weight: 600; /* Ketebalan font lebih besar */
+    border-radius: 10px; /* Border radius lebih besar */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transisi lebih halus */
+    font-size: 1.2rem; /* Ukuran font lebih besar */
+    letter-spacing: 1px; /* Jarak antar huruf */
+}
+
+.back-button a:hover {
+    background-color: #226ab5; /* Warna background tombol saat hover lebih gelap */
+    transform: scale(1.1); /* Efek zoom saat hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+}

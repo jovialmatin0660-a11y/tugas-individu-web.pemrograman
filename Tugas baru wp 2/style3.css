@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fotoku 2.jpeg'); /* Ganti dengan URL gambar Anda */
+    background-size: cover; /* Gambar menutupi seluruh layar */
+    background-position: center; /* Gambar berada di tengah */
+    background-repeat: no-repeat; /* Gambar tidak diulang */
+    color: #495057;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(0, 89, 255, 0.158); 
+    color: #000000;
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.kategori {
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 960px;
+    background-color: rgba(59, 117, 183, 0.286); 
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.kategori h2 {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0.3px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 220px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(28, 14, 14, 0.858);
+    transition: transform 0.3s ease;
+    background-color: #e9ecef;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+.back-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6opx;
+    weight : 60px
+    padding: 18px 36px; 
+    color: #fff;
+    background-color: #2e86de; 
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 10px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    font-size: 1.2rem; 
+    letter-spacing: 1px; 
+}
+
+.back-button a:hover {
+    background-color: #226ab5;
+    transform: scale(1.1); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+.container {
+  display: flex;
+  justify-content: center; /* Memusatkan horizontal */
+  align-items: center;    /* Memusatkan vertikal */
+/
+}
